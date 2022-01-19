@@ -1,0 +1,123 @@
+@keyframes animation {
+    from{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    to{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+@keyframes animation2 {
+    from {
+        color: orange; font-size: xx-large;
+    }
+    to {
+        color: yellow; font-size: larger;
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bacimg{
+    background-image: url('bac.jpg');
+    height: 100vh; width: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.menu{
+    height: 100px; width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+}
+.leftmenu{
+    width: 25%;
+    line-height: 100px;
+    float: left;
+}
+.leftmenu h2{
+    color: white;
+
+    text-transform: uppercase;
+    font-size: larger;
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.rightmenu{
+    width: 75%;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 50px;
+}
+.rightmenu ul li{
+    color: white;
+    margin-left: 50px;
+    display: inline;
+    line-height: 100px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.face{
+    margin-top: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: larger;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#home{
+    color: orange;
+}
+.rightmenu ul li:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.btn1{
+    border: 2px solid #6634db;
+    background: none;
+    padding: 10px 15px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+.btn1:hover{
+    color: #6634db;
+    border-color: black;
+}
+
+#mobiles{
+    margin-top: 10px; margin-bottom: 10px;
+}
+.row1{
+    margin-left: 100px; margin-right: 100px;
+}
+.iphone{
+    width: 45%; height: auto;
+    float: left;
+    text-align: justify;
+}
+.samsung{
+    width: 45%; height: auto;
+    float: right;
+    text-align: justify;
+}
+.row2{
+    margin-left: 100px; margin-right: 100px;
+}
+.huawei{
+    margin-top: 20px;
+    width: 45%; height: auto;
+    float: left;
+    text-align: justify;
+}
+.oppo{
+    margin-top: 20px;
+    width: 45%; height: auto;
+    float: right;
+    text-align: justify;
+}
